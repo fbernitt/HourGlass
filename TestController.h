@@ -12,6 +12,7 @@
 @interface TestController : NSObject {
 	IBOutlet id name;
 	IBOutlet id okButton;
+	IBOutlet id rightDrawer;
 }
 
 - (IBAction)doWhatsNecessary: (id)sender;
