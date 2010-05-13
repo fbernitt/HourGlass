@@ -14,6 +14,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		8F7D5FD5119B43CD0066C65E /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D5FD4119B43CD0066C65E /* TestController.m */; };
 		8F9608A4119C82C800FFCE6B /* PreferencesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9608A2119C82C800FFCE6B /* PreferencesAppDelegate.m */; };
+		8F9608E0119C8E1D00FFCE6B /* HourGlass.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8F9608DF119C8E1D00FFCE6B /* HourGlass.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		8F7D5FD4119B43CD0066C65E /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
 		8F9608A2119C82C800FFCE6B /* PreferencesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesAppDelegate.m; sourceTree = "<group>"; };
 		8F9608A3119C82C800FFCE6B /* PreferencesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesAppDelegate.h; sourceTree = "<group>"; };
+		8F9608DF119C8E1D00FFCE6B /* HourGlass.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = HourGlass.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8F9608DF119C8E1D00FFCE6B /* HourGlass.xcdatamodel */,
 				256AC3D80F4B6AC300CF3369 /* HourGlassAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* HourGlassAppDelegate.m */,
 			);
@@ -185,6 +188,7 @@
 				256AC3DA0F4B6AC300CF3369 /* HourGlassAppDelegate.m in Sources */,
 				8F7D5FD5119B43CD0066C65E /* TestController.m in Sources */,
 				8F9608A4119C82C800FFCE6B /* PreferencesAppDelegate.m in Sources */,
+				8F9608E0119C8E1D00FFCE6B /* HourGlass.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

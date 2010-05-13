@@ -10,7 +10,7 @@
 
 @implementation HourGlassAppDelegate
 
-@synthesize window;
+@synthesize window, objectModel,storeCoord, moc;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 

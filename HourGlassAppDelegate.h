@@ -10,8 +10,15 @@
 
 @interface HourGlassAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+	
+	NSManagedObjectModel *objectModel;
+	NSPersistentStoreCoordinator *storeCoord;
+	NSManagedObjectContext *moc;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (nonatomic,readonly) NSManagedObjectModel *objectModel;
+@property (nonatomic,readonly) NSPersistentStoreCoordinator *storeCoord;
+@property (nonatomic,readonly) NSManagedObjectContext *moc;
 
 @end
