@@ -7,9 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "GrowlHelper.h"
 
-
-@interface TestController : NSObject {
+@interface TestController : NSObject <NSSpeechSynthesizerDelegate> {
+	NSSpeechSynthesizer *mySpeechSynth;
+	GrowlHelper* growl;
+	
 	IBOutlet id name;
 	IBOutlet id okButton;
 	IBOutlet id rightDrawer;
