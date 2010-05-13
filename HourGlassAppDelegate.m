@@ -13,6 +13,13 @@
 @synthesize window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+
+	NSDictionary *defaultsDict = [NSDictionary dictionaryWithObjectsAndKeys:
+								  @"user", @"user",
+								  @"password", @"password",
+								  nil];
+	[[NSUserDefaults standardUserDefaults] registerDefaults:defaultsDict];
+	NSLog(@"Initialized preferences");
 	// Insert code here to initialize your application 
 }
 
