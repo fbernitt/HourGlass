@@ -17,8 +17,7 @@
 }
 
 @property (assign) IBOutlet NSWindow *window;
-@property (nonatomic,readonly) NSManagedObjectModel *objectModel;
-@property (nonatomic,readonly) NSPersistentStoreCoordinator *storeCoord;
-@property (nonatomic,readonly) NSManagedObjectContext *moc;
+@property (nonatomic,readonly) NSManagedObjectModel *managedObjectModel;
+@property (nonatomic,readonly) NSManagedObjectContext *managedObjectContext;
 
 @end

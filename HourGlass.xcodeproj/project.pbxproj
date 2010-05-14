@@ -16,6 +16,8 @@
 		8F9608A4119C82C800FFCE6B /* PreferencesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9608A2119C82C800FFCE6B /* PreferencesAppDelegate.m */; };
 		8FEC38F6119DDD69006D7C11 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC38E0119DDA24006D7C11 /* Growl Registration Ticket.growlRegDict */; };
 		8FEC392A119DDF37006D7C11 /* GrowlHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC3929119DDF37006D7C11 /* GrowlHelper.m */; };
+		8FEC39A0119DE822006D7C11 /* HourGlass.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC399F119DE822006D7C11 /* HourGlass.xcdatamodel */; };
+		8FEC39A9119DE8E6006D7C11 /* HourGlassCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC39A8119DE8E6006D7C11 /* HourGlassCoreDataController.m */; };
 		8FEC76FE119CAE6B006B0098 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC76FD119CAE6B006B0098 /* Growl.framework */; };
 		8FEC772B119CB0FA006B0098 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8FEC76FD119CAE6B006B0098 /* Growl.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,9 @@
 		8FEC38E0119DDA24006D7C11 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
 		8FEC3928119DDF37006D7C11 /* GrowlHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlHelper.h; sourceTree = "<group>"; };
 		8FEC3929119DDF37006D7C11 /* GrowlHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowlHelper.m; sourceTree = "<group>"; };
+		8FEC399F119DE822006D7C11 /* HourGlass.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = HourGlass.xcdatamodel; sourceTree = "<group>"; };
+		8FEC39A7119DE8E6006D7C11 /* HourGlassCoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourGlassCoreDataController.h; sourceTree = "<group>"; };
+		8FEC39A8119DE8E6006D7C11 /* HourGlassCoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourGlassCoreDataController.m; sourceTree = "<group>"; };
 		8FEC76FD119CAE6B006B0098 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +85,8 @@
 				8FEC3929119DDF37006D7C11 /* GrowlHelper.m */,
 				256AC3D80F4B6AC300CF3369 /* HourGlassAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* HourGlassAppDelegate.m */,
+				8FEC39A7119DE8E6006D7C11 /* HourGlassCoreDataController.h */,
+				8FEC39A8119DE8E6006D7C11 /* HourGlassCoreDataController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -114,6 +121,7 @@
 		29B97314FDCFA39411CA2CEA /* HourGlass */ = {
 			isa = PBXGroup;
 			children = (
+				8FEC399F119DE822006D7C11 /* HourGlass.xcdatamodel */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -214,6 +222,8 @@
 				8F7D5FD5119B43CD0066C65E /* TestController.m in Sources */,
 				8F9608A4119C82C800FFCE6B /* PreferencesAppDelegate.m in Sources */,
 				8FEC392A119DDF37006D7C11 /* GrowlHelper.m in Sources */,
+				8FEC39A0119DE822006D7C11 /* HourGlass.xcdatamodel in Sources */,
+				8FEC39A9119DE8E6006D7C11 /* HourGlassCoreDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
